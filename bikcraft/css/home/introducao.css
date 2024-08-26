@@ -1,6 +1,6 @@
 .introducao-bg{
-    background-color: #000000;
-    box-shadow: inset 0 -120px #ffffff;
+    background-color: var(--cor-12);
+    box-shadow: inset 0 -120px var(--cor-0);
 }
 .introducao{
     display: grid;
@@ -26,20 +26,8 @@
     margin-bottom: 32px;
    
 }
-
-
 .introducao p{
-    margin-bottom: 20px;
-    
-}
-
-@media (max-width: 1200px){
-    .introducao h1{
-        font-size: 48px;
-    }
-    .introducao p{
-        font-size: 18px;
-    }
+    margin-bottom: 20px;   
 }
 
 @media (max-width: 800px){
@@ -56,7 +44,6 @@
         padding-bottom: 0px;
     }
     .introducao h1{
-        font-size: 32px;
         margin-bottom: 16px;
     }
     .introducao img{

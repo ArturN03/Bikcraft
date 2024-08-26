@@ -12,22 +12,16 @@
     flex-wrap: wrap;
     gap: 20px;
 }
-
 .header-menu{
     display: flex;
     gap: 40px;
     flex-wrap: wrap;
 }
-
 .header-menu a {
     padding: 16px 0px;
-    display: inline-block;
-    font-size: 18px;
+    display: inline-block; 
     position: relative;
-    font-family: 'Poppins';
-    font-weight: 400;
 }
-
 .header-menu a:after{
     content: "";
     display: block;
@@ -38,7 +32,6 @@
     transition: 0.3s;
     position: absolute;
 }
-
 .header-menu a:hover:after{
     content: "";
     display: block;
@@ -47,7 +40,6 @@
     background: var(--cor-0);
     margin-top: 4px
 }
-
 @media (max-width:800px){
     .header-menu{
         gap: 20px;
@@ -64,7 +56,6 @@
        display: none;
     }
 }
-
 @media (max-width:600px){
     .header-menu{
         gap: 12px;
