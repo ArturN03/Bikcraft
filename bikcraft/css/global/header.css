@@ -5,12 +5,10 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px;
-    max-width: 1160px;
-    margin-left: auto;
-    margin-right: auto;
     flex-wrap: wrap;
     gap: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 .header-menu{
     display: flex;
