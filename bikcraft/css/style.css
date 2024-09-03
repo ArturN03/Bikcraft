@@ -1,12 +1,16 @@
 /* Global */
 @import "./global/global.css";
 @import "./global/header.css";
+@import "./global/footer.css";
 
 /* Home */
 @import "./home/introducao.css";
 @import "./home/tecnologia.css";
 @import "./home/parceiros.css";
 @import "./home/depoimento.css";
+
+/* Termos */
+@import "./termos/termos.css";
 
 /* Utilidades */
 @import "./utilidades/componentes.css";
@@ -15,5 +19,8 @@
 
 /* Bicicletas */
 @import "./bicicletas/bicicletas-lista.css";
+
+/* seguros */
+@import "./seguros/seguros.css";
 
 

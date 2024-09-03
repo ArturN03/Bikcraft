@@ -18,10 +18,21 @@
     line-height: 1.33;
     font-family: 'Poppins';
     font-weight: 600;
+    max-width: max-content;
 }
 .botao:hover{
     background: linear-gradient(#ffb60d, #e59317);
 }
+
+.botao.secundario{
+    background: var(--cor-10);
+    color: var(--cor-2);
+}
+
+.botao.secundario:hover{
+    background: var(--cor-9);
+}
+
 @media (max-width:600px){
     .botao{
         padding: 12px 16px;
@@ -44,4 +55,25 @@
 }
 .link:hover{
     color: var(--cor-0);
+}
+
+/*Titulo interno*/
+.titulo-bg{
+    background-color: var(--cor-11);
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.titulo p{
+    margin-bottom: 4px;
+}
+@media (max-width:800px) {
+    .titulo{
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    .titulo p{
+        font-size: 1rem;
+        text-transform: lowercase;
+        font-weight: 400;
+    }
 }
