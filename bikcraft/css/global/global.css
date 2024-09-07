@@ -7,7 +7,7 @@ ul{
     padding: 0px;
     list-style: none;
 }
-h1, h2, h3, ul, p, blockquote{
+h1, h2, h3, ul, p, blockquote, dd{
    margin: 0px;
 }
 a{
