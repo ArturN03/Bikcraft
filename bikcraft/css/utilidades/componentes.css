@@ -19,6 +19,8 @@
     font-family: 'Poppins';
     font-weight: 600;
     max-width: max-content;
+    border: none;
+    cursor: pointer;
 }
 .botao:hover{
     background: linear-gradient(#ffb60d, #e59317);
